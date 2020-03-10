@@ -416,3 +416,40 @@ header .header__middle a.btn {
   justify-content: center;
   align-items: center;
 }
+
+
+.footer__oneSection, .footer__twoSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 15px;
+}
+
+.footer__oneSectionItem, .footer__twoSectionItem {
+  width: 24%;
+  box-sizing: border-box;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li.space {
+  margin-bottom: 30px;
+}
+
+.footer__oneSection {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+}
+
+.footer__twoSection {
+  padding-bottom: 100px;
+}
